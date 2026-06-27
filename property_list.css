@@ -1,0 +1,105 @@
+/* Breadcrumb Styles */
+.breadcrumb {
+    background-color: transparent;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-left: 15px !important;
+}
+
+/* Filter Bar Layout */
+.filter-bar {
+    border-top: 1px solid #e9ecef;
+    border-bottom: 1px solid #e9ecef;
+    padding: 15px 0;
+    margin-bottom: 40px;
+}
+
+.filter-item {
+    cursor: pointer;
+    font-weight: 600;
+    color: #6c757d;
+}
+
+.filter-item img {
+    height: 20px;
+    margin-right: 5px;
+}
+
+.filter-item.active, .filter-item:hover {
+    color: #000000;
+}
+
+/* Property Card Layout */
+.property-card {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin-bottom: 35px;
+    background-color: #ffffff;
+    transition: transform 0.2s;
+}
+
+.property-card:hover {
+    transform: translateY(-2px);
+}
+
+.image-container img {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.content-container {
+    padding: 20px;
+}
+
+.star-container {
+    color: #ffc107;
+}
+
+.interested-container {
+    text-align: center;
+    cursor: pointer;
+}
+
+.interested-container i {
+    font-size: 22px;
+}
+
+.interested-text {
+    font-size: 11px;
+    color: #6c757d;
+}
+
+.property-name {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.property-address {
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+
+.property-gender img {
+    height: 22px;
+}
+
+.price {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.per-month {
+    font-size: 12px;
+    color: #6c757d;
+}
+
+.no-prop-container {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 18px;
+    color: #6c757d;
+}

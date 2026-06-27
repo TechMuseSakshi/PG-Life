@@ -1,0 +1,33 @@
+.main-details {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    margin-top: 20px;
+}
+
+.main-details h1 {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.price-box h2 {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.amen-item i {
+    margin-bottom: 10px;
+}
+
+.amen-item p {
+    font-weight: 600;
+    font-size: 14px;
+    color: #495057;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 20px;
+}

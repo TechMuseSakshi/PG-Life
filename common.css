@@ -1,0 +1,119 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.white {
+    color: #ffffff !important;
+}
+
+.page-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header Styles */
+.header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+.navbar {
+    padding: 10px 0;
+}
+
+.nav-item {
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.nav-name {
+    font-weight: 600;
+    color: #000000;
+}
+
+.nav-vl {
+    border-left: 1px solid #d3d3d3;
+    height: 20px;
+    margin-left: 20px;
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .nav-vl {
+        display: block;
+    }
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    margin-top: 60px;
+    border-top: 1px solid #e9ecef;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-cities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-city {
+    margin: 5px 15px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.footer-city a:hover {
+    color: #ffc107;
+}
+
+.footer-copyright {
+    font-size: 14px;
+    color: #999999;
+}
+
+/* Loading Overlay */
+#loading {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8) url('../img/loading.gif') no-repeat center center;
+    z-index: 10000;
+}
+
+/* Heart Icon Styles */
+.is-interested-image {
+    cursor: pointer;
+    font-size: 24px;
+    transition: color 0.3s ease;
+    color: #888888; /* Default grey color */
+}
+
+/* Force red when it has the solid class */
+.is-interested-image.fas {
+    color: #ff4d4d !important;
+}
